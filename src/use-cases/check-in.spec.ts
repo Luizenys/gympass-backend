@@ -14,7 +14,7 @@ describe('Check-in Use Case', () => {
         gymsRepository = new InMemoryGymsRepository()
         sut = new CheckInUseCase(checkInsRepository, gymsRepository)
 
-        gymsRepository.items.push({
+        await gymsRepository.create({
             id: 'gym-01',
             title: 'Smart fit',
             description: '',
