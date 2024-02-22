@@ -12,10 +12,10 @@ jobs:
         image: bitnami/postgresql
         ports:
           - 5432:5432
-        environment:
-          - POSTGRESQL_USERNAME=docker
-          - POSTGRESQL_PASSWORD=docker
-          - POSTGRESQL_DATABASE=gympass
+        env:
+          POSTGRESQL_USERNAME: docker
+          POSTGRESQL_PASSWORD: docker
+          POSTGRESQL_DATABASE: gympass
 
     steps:
       - uses: actions/checkout@v4
@@ -28,5 +28,5 @@ jobs:
 
       - run: npm run test:e2e
         env:
-          JWT_SECRET=luizagympass14
-          DATABASE_URL="postgresql://docker:docker@localhost:5432/gympass?schema=public"
+          JWT_SECRET: luizagympass14
+          DATABASE_URL: "postgresql://docker:docker@localhost:5432/gympass?schema=public"
