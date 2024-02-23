@@ -40,8 +40,6 @@ Esta é uma aplicação para check-ins em academias desenvolvida baseada nos con
 - Todas as listas de dados precisam estar paginadas com 20 itens por páginas;
 - O usuário deve ser identificado por um JWT;
 
-# Imagens da Aplicação
-
 ## Aplicação com esteira de CI
 
 ![nodeci](https://github.com/Luizenys/gympass-backend/assets/49442361/979f1c31-e2f1-45ea-845e-1ee73f25615f)
