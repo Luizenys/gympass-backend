@@ -9,6 +9,7 @@ Esta é uma aplicação para check-ins em academias desenvolvida baseada nos con
 - Zod
 - Vitest
 - Docker
+- Github Actions
 
 ## RFs (Requisitos funcionais)
 
@@ -42,4 +43,9 @@ Esta é uma aplicação para check-ins em academias desenvolvida baseada nos con
 # Imagens da Aplicação
 
 ## Aplicação com esteira de CI
+
+![nodeci](https://github.com/Luizenys/gympass-backend/assets/49442361/979f1c31-e2f1-45ea-845e-1ee73f25615f)
+
+![e2e ci](https://github.com/Luizenys/gympass-backend/assets/49442361/a3ab9e73-1735-47b3-9dbb-975101c2c42a)
+
 
